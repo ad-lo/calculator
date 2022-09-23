@@ -69,13 +69,13 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
     padding: 10px;
 }
 
-.equal-sign {
+#equal-sign {
   grid-column: -2;
   grid-row: 2 / span 4;
-  background: rgb(0, 97, 0);
+  background: rgb(10, 208, 0);
 }
 
-button {
+button { 
   min-height: 50px;
   font-size: 20px;
   font-weight: 400;
@@ -108,7 +108,7 @@ button:focus {
 }
 
 /* Media Query: Large Smartphone */
-@media  screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .calculator {
     width: 95%;
   }

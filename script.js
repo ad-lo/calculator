@@ -37,8 +37,7 @@ const calculate = {
 
 '-': (firstNumber, secondNumber) => firstNumber - secondNumber,
 
-'=': (firstNumber, secondNumber) =>  secondNumber,
-
+'=': (firstNumber, secondNumber) => secondNumber,
 };
 
 function useOperator(operator) {
@@ -85,3 +84,4 @@ function resetAll() {
 
 // event listener
 clearBtn.addEventListener('click', resetAll);
+
